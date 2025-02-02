@@ -154,9 +154,9 @@ const Home = () => {
           ))}
         </div>
       </div>
-      {isChatOpen && selectedUser && (
+{/*       {isChatOpen && selectedUser && (
         <ChatModal user={selectedUser} onClose={() => setIsChatOpen(false)} />
-      )}
+      )} */}
     <Footer />
     </div>
   );
