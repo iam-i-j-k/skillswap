@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:9000"); // Replace with your backend URL
+const socket = io(import.meta.env.VITE_SOCKET_URL); // Replace with your backend URL
 
 interface Message {
   sender: string;
@@ -33,7 +33,6 @@ const Chat = () => {
         timestamp: new Date().toLocaleTimeString(),
       };
       socket.emit("sendMessage", newMessage);
-      setMessages((prev) => [...prev, newMessage]);
       setMessage("");
     }
   };

@@ -8,10 +8,10 @@ export function Header() {
     <header className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
+          <a href='/' className="flex items-center space-x-3">
             <BookOpen className="h-8 w-8" />
-            <h1 className="text-2xl font-bold">SkillSwap</h1>
-          </div>
+            <h1 className="text-2xl font-bold">SwapSmart</h1>
+          </a>
           <nav className="hidden md:flex space-x-8">
             <a href="#" className="hover:text-purple-200 transition">Find Skills</a>
             <a href="#" className="hover:text-purple-200 transition">My Matches</a>

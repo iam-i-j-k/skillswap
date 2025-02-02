@@ -6,10 +6,8 @@ const VideoCallPage = () => {
   const { userId } = useParams<{ userId: string }>();
 
   return (
-    <div className="video-call-page">
-      <h2>Video Call with User ID: {userId}</h2>
-      {/* Implement video call functionality here using WebRTC or a third-party service */}
-      <div>
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <VideoCall />
       </div>
     </div>

@@ -53,7 +53,7 @@ const SAMPLE_USERS: User[] = [
   {
     id: '3',
     name: 'Sophia Turner',
-    avatar: 'https://images.unsplash.com/photo-1517817171910-7464246db58f?w=400',
+    avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK6nhTPn2KsCEA5oCd19uqp5dHJnB159XXVw&s',
     bio: 'Graphic designer passionate about creating visually appealing websites',
     skillsToTeach: [
       { id: '25', name: 'Graphic Design', category: 'Design', description: '', image: '' },
@@ -67,7 +67,7 @@ const SAMPLE_USERS: User[] = [
   {
     id: '4',
     name: 'Mark Robinson',
-    avatar: 'https://www.istockphoto.com/photo/an-indian-businessman-isolated-on-a-white-background-gm470587327-25574835',
+    avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKpoOr-PUnAljpxR2LCoihCZqdoGkXYrN5g&s',
     bio: 'Marketing expert with a focus on SEO and social media strategy',
     skillsToTeach: [
       { id: '29', name: 'SEO', category: 'Marketing', description: '', image: '' },
@@ -81,7 +81,7 @@ const SAMPLE_USERS: User[] = [
   {
     id: '5',
     name: 'James Harris',
-    avatar: 'https://images.unsplash.com/photo-1584624043830-02a1a8e789a9?w=400',
+    avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT211pdIhj6EZ5BrcYKBielSwumHCNQr7ShYQ&s',
     bio: 'Software engineer with a strong background in Python and AI development',
     skillsToTeach: [
       { id: '33', name: 'Python', category: 'Programming', description: '', image: '' },
@@ -95,7 +95,7 @@ const SAMPLE_USERS: User[] = [
   {
     id: '6',
     name: 'Olivia Johnson',
-    avatar: 'https://images.unsplash.com/photo-1542422075-651b1ea13c8e?w=400',
+    avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_iN2TKAq-VJfntDolRaLEH2fTQWy1nj2PtQ&s',
     bio: 'Full-stack developer with expertise in React and Node.js',
     skillsToTeach: [
       { id: '37', name: 'React', category: 'Programming', description: '', image: '' },
