@@ -7,8 +7,10 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://skillswap-1-tn5u.onrender.com",  // Replace with your frontend URL
-    methods: ["GET", "POST"]
+    origin: ["http://localhost:5173", "https://skillswap-1-tn5u.onrender.com"], // Allowed origins
+  methods: ["GET", "POST"], // Allowed request methods
+  credentials: true // Allow cookies, authentication headers
+
   }
 });
 
