@@ -11,11 +11,11 @@ const VideoCall = () => {
   useEffect(() => {
     // Initialize Peer
      const peer = new Peer(undefined, {
-      host: "peerjs-server.herokuapp.com", // Public PeerJS server
-      secure: true,
-      port: 443,
-      path: "/"
-    });
+  host: "skillswap-znrx.onrender.com", // Your Render backend URL
+  secure: true,
+  path: "/peerjs" // Matches the path set in backend
+});
+
     peerRef.current = peer;
 
     peer.on("open", (id) => {
