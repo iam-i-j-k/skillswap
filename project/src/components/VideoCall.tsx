@@ -10,7 +10,12 @@ const VideoCall = () => {
 
   useEffect(() => {
     // Initialize Peer
-    const peer = new Peer();
+     const peer = new Peer(undefined, {
+      host: "peerjs-server.herokuapp.com", // Public PeerJS server
+      secure: true,
+      port: 443,
+      path: "/"
+    });
     peerRef.current = peer;
 
     peer.on("open", (id) => {
