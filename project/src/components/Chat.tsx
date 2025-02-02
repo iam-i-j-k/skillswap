@@ -24,19 +24,19 @@ const Chat = () => {
     };
   }, []);
 
-  const sendMessage = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (message.trim()) {
-      const newMessage: Message = {
-        sender: username,
-        text: message,
-        timestamp: new Date().toLocaleTimeString(),
-      };
-      socket.emit("sendMessage", newMessage);
-      setMessages((prev) => [...prev, newMessage]);
-      setMessage("");
-    }
-  };
+const sendMessage = (e: React.FormEvent) => {
+  e.preventDefault();
+  if (message.trim()) {
+    const newMessage: Message = {
+      sender: username,
+      text: message,
+      timestamp: new Date().toLocaleTimeString(),
+    };
+    socket.emit("sendMessage", newMessage);
+    setMessage("");
+  }
+};
+
 
   return (
     <div className="p-4">
